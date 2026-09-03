@@ -1,12 +1,6 @@
 package org.example.DatabaseManager;
 
-import org.example.utils.Estado;
-import org.example.utils.TipoRol;
-
 import java.sql.*;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Date;
 
 public class DatabaseConnection {
 
@@ -23,6 +17,7 @@ public class DatabaseConnection {
         String usuarioSql = "CREATE TABLE IF NOT EXISTS USUARIOS (" +
                 "idUsuario INT AUTO_INCREMENT PRIMARY KEY NOT NULL, " +
                 "nombre VARCHAR(20) NOT NULL," +
+                "contrasena VARCHAR(20) NOT NULL," +
                 "descripcion VARCHAR(39)," +
                 "librosCompletos INT," +
                 "fechaRegistro DATETIME NOT NULL," +
@@ -33,6 +28,7 @@ public class DatabaseConnection {
         String grupoSql = "CREATE TABLE IF NOT EXISTS GRUPOS (" +
                 "idGrupo INT AUTO_INCREMENT PRIMARY KEY NOT NULL, " +
                 "nombre VARCHAR(20)," +
+                "contrasena VARCHAR(20) NOT NULL," +
                 "descripcion VARCHAR(100)," +
                 "fechaCreacion DATETIME NOT NULL," +
                 "tiempoConvivido INT," +
@@ -54,6 +50,7 @@ public class DatabaseConnection {
         String bibliotecaSql = "CREATE TABLE IF NOT EXISTS BIBLIOTECAS (" +
                 "idBiblioteca INT AUTO_INCREMENT PRIMARY KEY NOT NULL," +
                 "nombre VARCHAR(20) NOT NULL," +
+                "contrasena VARCHAR(20) NOT NULL," +
                 "descripcion VARCHAR(100)," +
                 "fechaCreacion DATETIME NOT NULL," +
                 "idUsuarioModerador INT NOT NULL," +
