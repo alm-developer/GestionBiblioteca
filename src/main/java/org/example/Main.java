@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
     IncioSesionUI pantalla = new IncioSesionUI();
-    Scene escena = new Scene(pantalla,800,600);
+    Scene escena = new Scene(pantalla,1200,720);
     primaryStage.setScene(escena);
     primaryStage.setTitle("InicioSesion");
     primaryStage.show();
