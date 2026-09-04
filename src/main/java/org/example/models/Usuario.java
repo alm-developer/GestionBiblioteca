@@ -8,7 +8,10 @@ public class Usuario {
     private int idUsuario;
     private String nombre;
     private int contrasena;
-    private int idEstadisticasUsuario;
+    private int librosCompletados;
+    private LocalDateTime fechaRegistro;
+    private LocalDateTime ultimaConexion;
+    private boolean Activo;
 
 
 }
