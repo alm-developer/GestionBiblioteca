@@ -4,11 +4,10 @@ import java.time.LocalDateTime;
 
 public class LecturaConjunta {
         private int idLecturaConjunta;
-        private LocalDateTime fechaLeidoGrupo;
-        private boolean leidoTodos;
-        private LocalDateTime fechaAbandonoTotal;
-        private double estrellasTotales;
+        private String nombre;
+        private String descripcion;
         private int idLibro;
         private int IdBiblioteca;
+        private int idEstadisticasLecturaConjunta;
 
 }

@@ -2,7 +2,7 @@ package org.example.models;
 
 import java.time.LocalDateTime;
 
-public class Progreso {
+public class ProgresoConjunto {
     private int idProgreso;
     private int paginasLeidas;
     private int paginaActual;
