@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
         private String isbn;
         private int pagTotales;
         private LocalDateTime fechaIntroduccion;
-        private boolean abandonado;
         private int idUsuarioCreador;
         private int idBiblioteca;
         private int idCategoria;

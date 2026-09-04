@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 
 public class EstadisticasUsuario {
     private int idEstadisticasUsuario;
-    private String descripcion;
     private int librosCompletados;
     private LocalDateTime fechaRegistro;
     private LocalDateTime ultimaConexion;
