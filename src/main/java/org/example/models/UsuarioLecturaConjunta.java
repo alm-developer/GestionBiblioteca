@@ -10,4 +10,5 @@ public class UsuarioLecturaConjunta {
     private Estado estado;
     private LocalDateTime ultimaEntrada;
     private LocalDateTime fechaEntrada;
+    private int intProgreso;
 }
