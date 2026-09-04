@@ -8,7 +8,6 @@ public class Usuario {
     private int idUsuario;
     private String nombre;
     private int contrasena;
-
     private String descripcion;
     private int librosCompletados;
     private LocalDateTime fechaRegistro;
